@@ -1,0 +1,21 @@
+*{
+  margin: 0 auto;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+  max-width: 600px;
+  width:100%;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.full-width{
+  width:100%;
+}
+
+.alert{
+  color: blue;
+  font-weight: bold;
+}

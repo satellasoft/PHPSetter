@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PHPSetter</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="getuikit/css/uikit.min.css" />
+    <link rel="stylesheet" href="hightlight\styles\a11y-dark.css">
+  </head>
+  <body>
+    <div class="main">
+      <h1>PHPSetter</h1>
+      <div>
+          <label for="txtVariables" class="alert">Variables</label>
+          <textarea rows="8" id="txtVariables" class="full-width">a</textarea>
+      </div>
+      <div class="uk-text-right">
+        <label><input type="checkbox" id="cbSetter" value="s" checked> Setter</label>
+        <label><input type="checkbox" id="cbGetter" value="s" checked> Getter</label>
+        <label><input type="checkbox" id="cbConstructor" value="s" checked> Constructor</label>
+        <button class="uk-button uk-button-primary" onclick="CreateData();">Create</button>
+      </div>
+
+      <div>
+        <pre><code class="php" id="finalResult"></code></pre>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+    <script src="getuikit\js\uikit.min.js" charset="utf-8"></script>
+    <script src="hightlight\highlight.pack.js" charset="utf-8"></script>
+    <script src="js\script.js"></script>
+  </body>
+</html>
