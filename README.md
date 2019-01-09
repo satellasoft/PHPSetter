@@ -37,30 +37,30 @@ Existem três checkbox, que por padrão estão ativos, você pode optar em não 
 When this option is checked, it creates the Setter methods, as shown in the block below.
 Quando essa opção estiver marcada, cria os métodos Setter, como mostra o bloco abaixo.
 
-`
+```php
 public function setName($Name){
   $this->name = $Name;
 }
-`
+```
 
 ## Getter
 When this option is checked, the Getters methods will be created, as shown by the code below.
 Quando essa opção estiver marcada, será criado os métodos Getters, como mostra o código abaixo.
 
-`
+```php
 public function getName(){
   return $this->name;
 }
-`
+```
 
 ## Constructor
 The constructor is an optional method for many developers, but when it is checked, the attributes with all the predefined parameters in the method will be created. See an example below.
 O construtor é um método opcional para muitos desenvolvedores, porém quando ele estiver marcado, será criado os atributos com todos os parâmetros pré-definidos no método. Veja um exeplo abaixo.
 
-`
+```php
 public function __construct($name, $email, $password){
   $this->name = $name;
   $this->email = $email;
   $this->password = $password;
 }
-`
+```
