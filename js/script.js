@@ -118,7 +118,7 @@ function Constructor(){
     constructor += "<br>\t\t\t$this->" + variablesArray[i] + " = $" + variablesArray[i] + ";";
   }
 
-  constructor +="<br>\t\t}";
+  constructor +="<br>\t\t}<br>";
   return constructor;
 }
 
