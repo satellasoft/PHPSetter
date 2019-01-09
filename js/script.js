@@ -1,5 +1,7 @@
 /*
-https://highlightjs.org/usage/
+
+www.gunnarcorre.com
+This software was developed by Gunnar Correa, and is available on Github.
 */
 var variablesArray =  [];
 
@@ -17,6 +19,9 @@ function GenerateClass(){
   var data = [
     "&lt;?php",
     "<br>",
+    "\tnamespace ../../;",
+    "<br>",
+    "<br>",
     "\tclass ClassName{",
     "<br>",
     "<br>",
@@ -25,9 +30,7 @@ function GenerateClass(){
     Constructor(),
     "<br>",
     Setter(),
-    "<br>",
     Getter(),
-    "<br>",
     "\t}",
     "<br>",
     "?>",
