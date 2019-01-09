@@ -1,5 +1,12 @@
 # PHPSetter
-Create Setter. Getter and Constructor for variables
+PHPSetter is a simple tool that can be run in any web browser.
+
+With it the PHP developer can easily enter the name of their variables that the application will generate a complete class with the Getter, Setter and Constructor methods.
+
+PHPSetter é uma simples ferramenta que pode ser executada em qualquer navegador web. 
+
+Com ela o desenvolvedor PHP pode facilmente inserir o nome de suas variáveis que a aplicação vai gerar uma classe completa com os métodos Getter, Setter e Constructor.
+
 
 The use of this tool is very simple, it consists of a few steps and rules for everything to work correctly.
 
@@ -34,11 +41,11 @@ Existem três checkbox, que por padrão estão ativos, você pode optar em não 
 When this option is checked, it creates the Setter methods, as shown in the block below.
 Quando essa opção quando marcada, cria os métodos Setter, como mostra o bloco abaixo.
 
-```
+`
 public function setName($Name){
   $this->name = $Name;
 }
-```
+`
 
 ## Getter
 
