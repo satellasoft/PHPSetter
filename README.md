@@ -64,3 +64,37 @@ public function __construct($name, $email, $password){
   $this->password = $password;
 }
 ```
+
+# Final Result/Resultado Final
+```php
+<?php
+	namespace ../../;
+
+	class ClassName{
+
+		private $name;
+		private $email;
+
+		public function __construct($name, $email){
+			$this->name = $name;
+			$this->email = $email;
+		}
+		public function setName($Name){
+			$this->name = $Name;
+		}
+
+		public function setEmail($Email){
+			$this->email = $Email;
+		}
+
+		public function getName(){
+			 return $this->name;
+		}
+
+		public function getEmail(){
+			 return $this->email;
+		}
+
+	}
+?>
+```
