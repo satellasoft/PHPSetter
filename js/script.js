@@ -110,7 +110,7 @@ function Constructor(){
   constructor +="\t\tpublic function __construct("
 
   for(var i = 0; i < variablesArray.length; i++){
-    constructor += "$" + variablesArray[i] + ((i+1) < variablesArray.length ? ", " : "");
+    constructor += "$" + variablesArray[i] + " = ''" + ((i+1) < variablesArray.length ? ", " : "") ;
   }
   constructor+= "){";
 
